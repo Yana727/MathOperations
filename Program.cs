@@ -17,11 +17,15 @@ namespace MathOperations
             {
                 isEven = true;
             }
+            Console.WriteLine($"The sum of {operand1} and {operand2} is {sum}");
+            Console.WriteLine($"The difference of {operand1} and {operand2} is {difference}");
+            Console.WriteLine($"The division of {operand1} and {operand2} is {division}");
+            Console.WriteLine($"The product of {operand1} and {operand2} is {multiplication}");
         }
 
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Enter 2 numbers:");
             String number1 = Console.ReadLine();
             String number2 = Console.ReadLine();
 
